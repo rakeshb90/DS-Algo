@@ -1,7 +1,7 @@
 package Array;
 
 public class MaxSumSubArr {
-	// Cadane's Algorithm
+	// Kadane's Algorithm
 	public static int getMaxsum(int[] arr) {
 		int currSum=0,maxSum=Integer.MIN_VALUE;
 		for(int index=0;index<arr.length;index++) {
