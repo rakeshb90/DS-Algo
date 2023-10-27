@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<!-- bean definitions here -->
+<bean class="springCoreConcept.Student" name="student1">
+<property name="id">
+<value>12</value>
+</property>
+<property name="name">
+<value>Ram</value>
+</property>
+<property name="address">
+<value>Patna</value>
+</property>
+</bean>
+<bean class="springCoreConcept.Student" name="student2">
+<property name="id" value="12"></property>
+<property name="name" value="Sita"></property>
+<property name="address" value="Delhi"></property>
+</bean>
+<bean class="springCoreConcept.Student" name="student3">
+<constructor-arg value="100"/>
+<constructor-arg value="Rakesh"/>
+<constructor-arg value="Banglore"/>
+</bean>
+</beans>

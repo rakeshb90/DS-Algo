@@ -1,6 +1,6 @@
 package linkedList;
 
-public class ListNode {
+public class ListNode extends Node {
 		int val;
 		ListNode next;
 		ListNode(){};

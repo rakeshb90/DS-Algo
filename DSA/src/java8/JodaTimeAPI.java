@@ -21,7 +21,19 @@ public class JodaTimeAPI {
 		Period p = Period.between(bDate,date);
 		System.out.println("Period: "+p);
 		
-
+         System.out.println(test());// always return from finally block consider in all case
+	}
+	public static int test() {
+		try {
+			System.out.println(10/10);
+			return 100;
+		}
+		catch(Exception e) {
+			return 200;
+		}
+		finally{
+			return 300;
+		}
 	}
 
 }

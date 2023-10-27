@@ -8,14 +8,11 @@ public class PatternMatch {
 			while(i<len) {
 				j=0;
 				k=i;
-				boolean isMatched = false;
 			while(j<i && i<len && str.charAt(j) == str.charAt(i) ) {
 				i++;
 				j++;
-				isMatched = true;
 			}
 			i++;
-			if(isMatched)
 			lenTracker[k] = j;
 			}
 		return lenTracker;

@@ -9,9 +9,9 @@ public interface DiamondProblem {
 //		int x=100;
 //	}
 //	static {}
-	public int hashCode() {
-		return 10;
-	}
+//	public int hashCode() {
+//		return 10;
+//	}
 	
 	public default void method2() {
 		System.out.println("DiamondProblem => method2");
